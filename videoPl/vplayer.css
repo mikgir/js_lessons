@@ -1,0 +1,35 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.player {
+    width: 600px;
+    margin: 60px auto;
+}
+
+video {
+    width: 100%;
+}
+
+.controls {
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.timing {
+    width: 100%;
+}
+
+i {
+    margin: 0 15px;
+}

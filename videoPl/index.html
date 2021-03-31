@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="vplayer.css">
+</head>
+<body>
+<main>
+    <div class="player">
+        <video src="video/Mountains%20-%2048873.mp4" class="video"></video>
+        <input type="range" class="timing" value="0" step="0.001" min="0">
+        <div class="plTiming">
+            <p>current time: <span class="currentTime">0</span></p>
+        </div>
+    </div>
+    <div class="controls">
+        <div class="control-btn">
+            <i class="fas fa-play"></i>
+            <i class="fas fa-pause"></i>
+        </div>
+        <div class="change-controls">
+            <input type="range" class="volume" min="0" max="1" step="0.01">
+            <i class="fas fa-expand"></i>
+        </div>
+
+    </div>
+
+</main>
+
+
+
+<script src="https://kit.fontawesome.com/55ca65ac4e.js" crossorigin="anonymous"></script>
+<script src="video.js"></script>
+</body>
+</html>
